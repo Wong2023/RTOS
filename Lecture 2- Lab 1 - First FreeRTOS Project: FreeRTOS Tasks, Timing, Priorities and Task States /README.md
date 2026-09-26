@@ -1,3 +1,5 @@
+<img width="845" height="886" alt="Screenshot 2026-09-26 181855" src="https://github.com/user-attachments/assets/0b58d561-730d-4b05-8640-ac8b29aa3819" />
+<img width="845" height="886" alt="Screenshot 2026-09-26 181855" src="https://github.com/user-attachments/assets/f70ab8f9-f7b1-4b70-84ab-7710a21833a6" />
 # Lecture 02 - Lab 1: First FreeRTOS Project
 
 ## 1. Hardware and Software
