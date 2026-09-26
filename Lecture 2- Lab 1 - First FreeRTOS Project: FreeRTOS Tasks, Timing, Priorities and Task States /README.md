@@ -1,5 +1,3 @@
-<img width="845" height="886" alt="Screenshot 2026-09-26 181855" src="https://github.com/user-attachments/assets/0b58d561-730d-4b05-8640-ac8b29aa3819" />
-<img width="845" height="886" alt="Screenshot 2026-09-26 181855" src="https://github.com/user-attachments/assets/f70ab8f9-f7b1-4b70-84ab-7710a21833a6" />
 # Lecture 02 - Lab 1: First FreeRTOS Project
 
 ## 1. Hardware and Software
@@ -45,4 +43,4 @@ The FreeRTOS scheduler always selects the highest-priority **Ready** task to ent
 * **Task A Priority:** 1
 * **Task B Priority:** 1
 * **Core Assignment:** Core 1 (both tasks)
-* **Status:** All delays active and verified.
+* **Status:** All delays active and verified.<img width="845" height="886" alt="Screenshot 2026-09-26 181855" src="https://github.com/user-attachments/assets/32d1c22a-e0e4-49bd-8034-b1f6de4b4bbe" />
