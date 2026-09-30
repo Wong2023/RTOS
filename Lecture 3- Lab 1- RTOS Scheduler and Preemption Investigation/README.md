@@ -10,8 +10,6 @@ This assignment investigates how the FreeRTOS scheduler handles task states, pri
 ## 2. Preemption Demonstration Output
 When Task A sends a notification to Task B via `xTaskNotifyGive()`, Task B immediately preempts Task A (when Task B has a higher priority) and prints its message right after the notification call.
 
-![Serial Monitor Screenshot](images/serial-monitor.png)
-
 ## 3. Prediction and Observation Table
 
 | Scenario | Prediction before test | Actual Observation | Match? Why? |
