@@ -1,4 +1,4 @@
-# Lecture 02 - Lab 2: Preemption and Task Notification
+Lecture 3- Lab 1- RTOS Scheduler and Preemption Investigation
 
 ## 1. Purpose and Setup
 This assignment investigates how the FreeRTOS scheduler handles task states, priority-based scheduling, and preemption on an ESP32-S3 microcontroller.
