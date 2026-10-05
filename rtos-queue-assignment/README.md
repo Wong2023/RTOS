@@ -9,7 +9,7 @@ This project demonstrates how to safely pass data between two FreeRTOS tasks on 
 3. **Display Task (Consumer):** Periodically checks the queue using `xQueueReceive()`. When a new temperature value is available, it retrieves it and prints `Temperature: XX C` to the Serial Monitor.
 
 ## 3. Serial Monitor
-![Serial Monitor Output](screenshot.png)
+Serial Monitor Output in the assignment (repo) but different folder
 
 ## 4. Reflection
 Using a queue is useful because it provides thread-safe communication between tasks without risking race conditions or lost data. It decouples the Sensor Task from the Display Task, allowing them to run independently at different rates. FreeRTOS automatically manages the data synchronization without requiring global shared variables.
