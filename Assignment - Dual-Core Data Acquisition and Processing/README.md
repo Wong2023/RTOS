@@ -46,10 +46,6 @@ Three extensions were added to the base lecture example:
 4. Open the **Serial Monitor** at **115200 baud**.
 5. Let the application run for at least 12–15 seconds to verify that more than 20 sequential samples are processed.
 
-## 5. Serial Monitor Output
-
-![Serial Monitor Output](images/serial-monitor-output.png)
-
 ### Observations from the Output:
 * **Core Verification:** Logs confirm `[Producer | Core 0]` runs on Core 0, while `[Consumer | Core 1]` and `[Monitor | Core 1]` run on Core 1.
 * **Queue & Mutex Integrity:** Over 20 readings (`count >= 20`) are processed cleanly with zero dropped samples (`dropped=0`). Running averages, min/max values, and periodic Monitor summaries remain consistent, and `[ALARM: HIGH TEMP!]` triggers whenever temperature exceeds `24.20°C`.
